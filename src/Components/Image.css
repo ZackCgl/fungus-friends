@@ -1,0 +1,19 @@
+.image__mushrooms{
+    display: flex;
+}
+
+.image__image{
+    height: 100px;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+    justify-content: center;
+    transition: transform 100ms ease-out;
+    filter: grayscale(100%);
+}
+
+.image__image:hover{
+    transform: scale(1.04);
+    filter: grayscale(0%);
+}
